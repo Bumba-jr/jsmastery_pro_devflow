@@ -34,3 +34,10 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+Add this code in package.json file, when finding it difficult to install a package. Check the version it request for  
+// "packageManager": "npm@10.7.0",
+// "overrides": {
+// "react": "$react",
+//     "react-dom": "$react-dom"
+// }
